@@ -1,5 +1,5 @@
-const draggable_list = document.getElementById('draggable_list');
-const check_btn = document.getElementById('check-btn');
+const draggable_list = document.getElementById('draggable-list');
+const check = document.getElementById('check');
 
 const mostPopularLanguages = [
     'JavaScript',
@@ -36,8 +36,9 @@ function createList() {
           <i class="fas fa-grip-lines"></i>
       </div>
       `;
+
       listItems.push(listItem);
 
-      draggable_list.appendChile(listItem);
+      draggable_list.appendChild(listItem);
     });
 }
