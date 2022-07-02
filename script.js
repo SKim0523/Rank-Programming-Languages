@@ -27,7 +27,9 @@ function createList() {
     [...mostPopularLanguages]
     //map will take the array and return a new array
     .map(a => ({value: a, sort: Math.random()}))
+
     .sort((a, b) => a.sort - b.sort)
+    
     .map(a => a.value)
     //forEach >> highOrder Array method
     .forEach((language, index) => {
