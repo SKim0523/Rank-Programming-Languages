@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+:root {
+    --border-color: #e3e5e4;
+    --background-color: #c3c7ca;
+    --tesxtcolor: 
+}
+
 /* for everything */
 * {
     box-sizing: border-box;
@@ -14,5 +20,13 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
-
 }
+
+.draggable-list {
+    border: 1px solid var (--border-color);
+    color: (--test-color);
+    padding: 0;
+    list-style-type: none;
+}
+
+.draggable-list li
