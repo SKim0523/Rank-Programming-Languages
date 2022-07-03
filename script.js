@@ -14,9 +14,10 @@ const mostPopularLanguages = [
     'Perl'
 ];
 
-// Store Listitems
+// Store Listitems (after sorting)
 const listItems = [];
 
+// Index to keep track of each list item
 let dragStartIndex;
 
 createList();
@@ -29,12 +30,13 @@ function createList() {
     .map(a => ({value: a, sort: Math.random()}))
 
     .sort((a, b) => a.sort - b.sort)
-    
+
     .map(a => a.value)
     //forEach >> highOrder Array method
     .forEach((language, index) => {
+        //Creating a new item to insert into the DOM
       const listItem = document.createElement('li');
-
+        //When creating custom attribute in HTML I want to use 'data' attribute
       listItem.setAttribute('data-index', index);
 
       listItem.innerHTML = `
