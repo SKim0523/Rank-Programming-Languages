@@ -2,16 +2,16 @@ const draggable_list = document.getElementById('draggable-list');
 const check = document.getElementById('check');
 
 const mostPopularLanguages = [
-    'JavaScript',
     'Python',
-    'HTML',
-    'CSS',
+    'C',
     'Java',
-    'SQL',
-    'NoSQL',
+    'C++',
     'C#',
-    'Rust',
-    'Perl'
+    'Visual Basic',
+    'JavaScript',
+    'SQL',
+    'Assembly language',
+    'Swift'
 ];
 
 // Store Listitems (after sorting)
@@ -77,13 +77,13 @@ function dragOver(e) {
 function dragDrop() {
   // console.log('Event: ', 'drop');
   const dragEndIndex = +this.getAttribute('data-index');
-  swapItems(dragStartIndex, dragEndIndex;
+  swapItems(dragStartIndex, dragEndIndex); 
     this.classList.remove('over')
 }
 
 function swapItems(fromIndex, toIndex) {
-  const intemOne = listItems[fromIndex].querySelector('draggable')
-  const intemTwo = listItems[fromIndex].querySelector('draggable')
+  const itemOne = listItems[fromIndex].querySelector('.draggable')
+  const itemTwo = listItems[toIndex].querySelector('.draggable')
 
   listItems[fromIndex].appendChild(itemTwo);
   listItems[toIndex].appendChild(itemOne);
