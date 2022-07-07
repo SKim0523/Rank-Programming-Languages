@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,8 @@ body {
     color: var(--text-color);
     padding: 0;
     list-style-type: none;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .draggable-list li {
@@ -115,3 +117,11 @@ body {
     background-color: red;
   }
   
+  .content-left {
+      width:75%;
+      margin: 0 auto;
+  }
+
+  .title {
+    text-align: center;
+  }
