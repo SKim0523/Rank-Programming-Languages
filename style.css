@@ -112,12 +112,14 @@ body {
   .left {
     left: 0;
     width: 40%;
+    font-size: 15px;
   }
   
   /* Control the right side */
   .right {
     right: 0;
     width: 60%;
+    font-size: 15px;
   }
   
   .content-left {

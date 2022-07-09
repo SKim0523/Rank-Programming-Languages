@@ -123,7 +123,7 @@ function addEventListeners(){
 
 check.addEventListener('click', checkOrder);
 
-function openCity(evt, cityName) {
+function openLanguage(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
