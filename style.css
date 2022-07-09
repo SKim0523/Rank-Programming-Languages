@@ -175,3 +175,7 @@ body {
   .instruction {
       text-align: center;
   }
+
+  .assembly-language-image {
+      width: 50%;
+  }
