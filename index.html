@@ -13,8 +13,8 @@
   </head>
   <body>
     <div class="split left">
+        <!-- <img class="hello-world" src="images/Hello-World.jpg"> -->
       <div class="content-left">
-        <img class="hello-world" src="images/Hello-World.jpg">
         <h1 class="title">10 Most Popular Programming Languages in 2022</h1>
         <p class="instruction">
           Below is a jumbled list of 10 most popular programming languages for
@@ -33,17 +33,17 @@
       </div>
     </div>
     <div class="split right">
+        <img class = "programming" src="/images/Programming.jpg" alt = "Computer and various icons that symbolyze programming">
         <div class="content-right">
-            <img class = "programming" src="/images/Programming.jpg" alt = "Computer and various icons that symbolyze programming">
             <h1 class="title">Programming Languages Info</h1>
         <p class="instruction">
         Press tabs to read some basic information about each languages. <br>Languages are listed in alphabetical order.<br></p>
         <div class="tab">
             
             <button class="tablinks" onclick="openLanguage(event, 'AssemblyLanguage')">Assembly Language</button>
-            <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C</button>
-            <button class="tablinks" onclick="openLanguage(event, 'C#Language')">C#</button>
-            <button class="tablinks" onclick="openLanguage(event, 'C++Language')">C++</button>
+            <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C/C#/C++</button>
+            <!-- <button class="tablinks" onclick="openLanguage(event, 'C#Language')">C#</button>
+            <button class="tablinks" onclick="openLanguage(event, 'C++Language')">C++</button> -->
             <button class="tablinks" onclick="openLanguage(event, 'JavaLanguage')">Java</button>
             <button class="tablinks" onclick="openLanguage(event, 'JavaScriptLanguage')">JavaScript</button>
             <button class="tablinks" onclick="openLanguage(event, 'PythonLanguage')">Python</button>
@@ -74,11 +74,41 @@
           </div>
           
           <div id="CLanguage" class="tabcontent">
-            <h3>C</h3>
-            <p>C content.</p>
+            <h3>C/C#/C++</h3>
+            <img class = "C" src="images/C-languages.png" alt="C languages logos">
+            <p>
+                What is C?<br><br>
+                C programming language is the oldest and most widely used of the three. Dennis Ritchie invented it in 1972 and then published in 1978. Ritchie designed it for the development of a new version of Unix.<br>
+
+                Up until that point, the Unix operating system used assembly language, which is the lowest level of programming readable by a computer. The invention of C revolutionized programming and operating systems forever. The rest, as they say, is history.<br>
+                
+                C is still a low-level programming language, which performs almost as efficiently as assembly code. It provides base-level access to memory, and it requires very little runtime support.<br>
+                
+                Despite being published 40 years ago, C is still the most widely used programming language of all time. Programmers still use it in operating systems, kernel-level software, hardware drivers, and applications that need to work with older code.<br>
+                
+                Most old-school programmers will suggest that C is the best programming language to start with because so many newer languages build off of it. It may also offer some security benefits because of its age. The pool of people using it is smaller, making it a less desirable target for hackers.<br><br>
+                 
+                What is C++?<br><br>
+                C++ was developed as an extension of the C programming language. It was created by a Ph.D. student in Denmark named Bjarne Stroustrup. His goal was to enhance C and add object-oriented programming capabilities without sacrificing speed or efficiency.<br>
+                
+                C++ is considered an intermediate-level programming language, as it builds upon the low-level C language but has more advanced capabilities.<br>
+                
+                Since the initial publication of C++ in 1985, it has become another extremely prolific programming language. It’s used alongside C in the development of operating systems but also sees use in high-profile server and PC software.<br>
+                
+                It is a lot easier to understand C++ if you already have a solid foundation in the C programming language; however, you can still learn C++ as your first language if you want to jump right into object-oriented programming.<br><br>
+                
+                What is C++?<br><br>
+                C# (pronounced “C Sharp”) is a high-level, object-oriented programming language that is also built as an extension of C. It was developed by a team at Microsoft lead by Anders Hejlsberg in 2002. It is based in the .NET framework, but its backbone is still clearly the C language.<br>
+
+                C# compiles into byte-code, rather than machine code. That means it executes on a virtual computer that translates it into machine code on the fly. It adds garbage collection, uninitialized variable checking, bound checking, and type checking capabilities to the base C code.<br>
+
+                C# typically sees use in internal or enterprise applications, rather than commercial software. It’s found in client and server development in the .NET framework.<br>
+
+
+            </p>
           </div>
           
-          <div id="C#Language" class="tabcontent">
+          <!-- <div id="C#Language" class="tabcontent">
             <h3>C#</h3>
             <p>C# content.</p>
           </div>
@@ -86,7 +116,7 @@
           <div id="C++Language" class="tabcontent">
             <h3>C++</h3>
             <p>C++ content.</p>
-          </div>
+          </div> -->
 
           <div id="JavaLanguage" class="tabcontent">
             <h3>Java</h3>
