@@ -188,6 +188,10 @@ body {
       width: 100%;
   }
 
-  .C {
+  .C, .Java {
     width: 30%; 
+  }
+
+  .c-language-source {
+      text-decoration: none;
   }
