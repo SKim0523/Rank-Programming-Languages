@@ -17,13 +17,11 @@
       <div class="content-left">
         <h1 class="title">10 Most Popular Programming Languages in 2022</h1>
         <p class="instruction">
-          Below is a jumbled list of 10 most popular programming languages for
-          2022 according to
-          <a href="https://www.tiobe.com/tiobe-index/" target="_blank"
-            >TIOBE index</a
+          Below is a jumbled list of 10 most popular programming languages for 2022 according to
+          <a href="https://pypl.github.io/PYPL.html" target="_blank"
+            >The PYPL PopularitY of Programming Language Index</a
           >.<br />
-          Can you guess the popularity rank for the languages? Drag and drop
-          them into right places!
+          Can you guess the popularity rank for the languages? Drag and drop them into right places!
         </p>
         <ul class="draggable-list" id="draggable-list"></ul>
         <button class="check-btn" id="check">
@@ -39,40 +37,58 @@
         <p class="instruction">
         Press tabs to read some basic information about each languages. <br>Languages are listed in alphabetical order.<br></p>
         <div class="tab">
-            
-            <button class="tablinks" onclick="openLanguage(event, 'AssemblyLanguage')">Assembly Language</button>
+            <button class="tablinks" onclick="openLanguage(event, 'PythonLanguage')">Python</button>
+            <button class="tablinks" onclick="openLanguage(event, 'JavaLanguage')">Java</button>
+            <button class="tablinks" onclick="openLanguage(event, 'JavaScriptLanguage')">JavaScript</button>
             <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C/C#/C++</button>
             <!-- <button class="tablinks" onclick="openLanguage(event, 'C#Language')">C#</button>
             <button class="tablinks" onclick="openLanguage(event, 'C++Language')">C++</button> -->
-            <button class="tablinks" onclick="openLanguage(event, 'JavaLanguage')">Java</button>
-            <button class="tablinks" onclick="openLanguage(event, 'JavaScriptLanguage')">JavaScript</button>
-            <button class="tablinks" onclick="openLanguage(event, 'PythonLanguage')">Python</button>
-            <button class="tablinks" onclick="openLanguage(event, 'SQLLanguage')">SQL</button>
+            <button class="tablinks" onclick="openLanguage(event, 'SQLLanguage')">PHP</button>
+            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">R</button>
+            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">TypeScript</button>
+            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">Objective-C</button>
             <button class="tablinks" onclick="openLanguage(event, 'SwiftLanguage')">Swift</button>
-            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">Visual Basic</button>
+           
            
           </div>
           
           <!-- Tab content -->
-          <div id="AssemblyLanguage" class="tabcontent">
-            <h3>Assembly Language</h3>
-            <img class="assembly-language-image" src="images/assembly-language.png">
-            <p>Detail page on TIOBE Index for  <a href="https://www.tiobe.com/tiobe-index/assembly-language/" target="_blank">Assembly Language</a></p>
-            <p>Assembly Language is the interface between higher level languages (C++, Java, etc) and machine code (binary). For a compiled language, the compiler transforms higher level code into assembly language code.<br>
-            Every family of CPUs define their own Instruction Set Architecture (ISA), a set of basic instructions that the CPU can execute without needing further translation or transformation. The compiler decomposes composite higher level composite instructions into operations available in the ISA.<br>
-            Some of the more common ISAS in use today include MIPS, ARM, Intel x86, RISC-V.<br>
-            Assemblers decompose Assembly instructions into their respective binary representations and replace the generic addresses of assembly code with explicit register and memory addresses of your computer.<br>
-            Code where execution time and control is crucial can be written directly in assembler. This, however, comes at the cost of prolonging development time, and making development harder. It should also be noted that there has been a large amount of research going into making compilers optimize the code that is generated automatically.<br><br>
-             Assembly language is primarily used in the following situations:
-             <ul>  
-                <li>There is a need to use CPU instructions not available in higher-level languages.</li>
-                <li>There is no high-level language to program a certain types of processors.</li>
-                <li>Implementing a compiler for a higher level language on a new ISA.</li>
-            </ul> 
-            *source: freeCodeCamp, <a href="https://www.freecodecamp.org/news/what-are-assembly-languages/">What are Assembly Languages?</a>" 
+
+          <div id="PythonLanguage" class="tabcontent">
+            <h3>Python</h3>
+            <img class="Python" src="images/Python.png" alt="Python programming language logo">
+            <p>
+                Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.<br><br>
+
+                Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<br><br>
+                
+                Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions.<br><br>
+                Python 2 was discontinued with version 2.7.18 in 2020.
                 </p>
           </div>
-          
+
+          <div id="JavaLanguage" class="tabcontent">
+            <h3>Java</h3>
+            <img class="Java" src="images/Java.png" alt="Java programming language logo">
+            <p>JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>*Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
+          </div>
+
+          <div id="JavaScriptLanguage" class="tabcontent">
+            <h3>JavaScript</h3>
+            <img class="Javascript" src="images/Javascript.png" alt="Javascript programming language logo">
+            <p>
+                JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.<br><br>
+
+                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).<br><br>
+                
+                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+                
+                JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.<br><br>
+                
+                Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
+                </p>
+          </div>
+
           <div id="CLanguage" class="tabcontent">
             <h3>C/C#/C++</h3>
             <img class = "C" src="images/C-languages.png" alt="C languages logos">
@@ -108,50 +124,8 @@
             </p>
           </div>
           
-          <!-- <div id="C#Language" class="tabcontent">
-            <h3>C#</h3>
-            <p>C# content.</p>
-          </div>
-
-          <div id="C++Language" class="tabcontent">
-            <h3>C++</h3>
-            <p>C++ content.</p>
-          </div> -->
-
-          <div id="JavaLanguage" class="tabcontent">
-            <h3>Java</h3>
-            <img class="Java" src="images/Java.png" alt="Java programming language logo">
-            <p>JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>*Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
-          </div>
-
-          <div id="JavaScriptLanguage" class="tabcontent">
-            <h3>JavaScript</h3>
-            <img class="Javascript" src="images/Javascript.png" alt="Javascript programming language logo">
-            <p>
-                JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.<br><br>
-
-                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).<br><br>
-                
-                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
-                
-                JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.<br><br>
-                
-                Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
-                </p>
-          </div>
-
-          <div id="PythonLanguage" class="tabcontent">
-            <h3>Python</h3>
-            <img class="Python" src="images/Python.png" alt="Python programming language logo">
-            <p>
-                Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.<br><br>
-
-                Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<br><br>
-                
-                Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions.<br><br>
-                Python 2 was discontinued with version 2.7.18 in 2020.
-                </p>
-          </div>
+    
+          
 
           <div id="SQLLanguage" class="tabcontent">
             <h3>SQL</h3>
@@ -170,6 +144,27 @@
                 * Source: https://en.wikipedia.org/wiki/SQL
                 </p>
           </div>
+          
+          <div id="PHPLanguage" class="tabcontent">
+            <h3>PHP</h3>
+            <p>PHP content.</p>
+          </div>
+
+          <div id="RLanguage" class="tabcontent">
+            <h3>R</h3>
+            <p>R content.</p>
+          </div>
+
+          <div id="TypeScriptLanguage" class="tabcontent">
+            <h3>TypeScript</h3>
+            <p>TypeScript content.</p>
+          </div>
+
+          <div id="Objective-CLanguage" class="tabcontent">
+            <h3>Objective-C</h3>
+            <p>Objective-C content.</p>
+          </div>
+
 
           <div id="SwiftLanguage" class="tabcontent">
             <h3>Swift</h3>
@@ -182,10 +177,7 @@
                 </p>
           </div>
 
-          <div id="VisualBasicLanguage" class="tabcontent">
-            <h3>Visual Basic</h3>
-            <p>Visual Basic content.</p>
-          </div>
+          
         </div>
     </div>
     <script src="script.js"></script>

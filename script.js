@@ -3,14 +3,14 @@ const check = document.getElementById('check');
 
 const mostPopularLanguages = [
     'Python',
-    'C',
     'Java',
-    'C++',
-    'C#',
-    'Visual Basic',
     'JavaScript',
-    'SQL',
-    'Assembly language',
+    'C#',
+    'C/C++',
+    'PHP',
+    'R',
+    'TypeScript',
+    'Objective-C',
     'Swift'
 ];
 
