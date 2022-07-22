@@ -37,58 +37,26 @@
         <p class="instruction">
         Press tabs to read some basic information about each languages. <br>Languages are listed in alphabetical order.<br></p>
         <div class="tab">
-            <button class="tablinks" onclick="openLanguage(event, 'PythonLanguage')">Python</button>
+
+
+            <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C/C#/C++</button>
             <button class="tablinks" onclick="openLanguage(event, 'JavaLanguage')">Java</button>
             <button class="tablinks" onclick="openLanguage(event, 'JavaScriptLanguage')">JavaScript</button>
-            <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C/C#/C++</button>
             <!-- <button class="tablinks" onclick="openLanguage(event, 'C#Language')">C#</button>
             <button class="tablinks" onclick="openLanguage(event, 'C++Language')">C++</button> -->
-            <button class="tablinks" onclick="openLanguage(event, 'SQLLanguage')">PHP</button>
-            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">R</button>
-            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">TypeScript</button>
             <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">Objective-C</button>
+            <button class="tablinks" onclick="openLanguage(event, 'SQLLanguage')">PHP</button>
+            <button class="tablinks" onclick="openLanguage(event, 'PythonLanguage')">Python</button>
+            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">R</button>
             <button class="tablinks" onclick="openLanguage(event, 'SwiftLanguage')">Swift</button>
+            <button class="tablinks" onclick="openLanguage(event, 'VisualBasicLanguage')">TypeScript</button>
+
+
            
            
           </div>
           
           <!-- Tab content -->
-
-          <div id="PythonLanguage" class="tabcontent">
-            <h3>Python</h3>
-            <img class="Python" src="images/Python.png" alt="Python programming language logo">
-            <p>
-                Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.<br><br>
-
-                Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<br><br>
-                
-                Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions.<br><br>
-                Python 2 was discontinued with version 2.7.18 in 2020.
-                </p>
-          </div>
-
-          <div id="JavaLanguage" class="tabcontent">
-            <h3>Java</h3>
-            <img class="Java" src="images/Java.png" alt="Java programming language logo">
-            <p>JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>*Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
-          </div>
-
-          <div id="JavaScriptLanguage" class="tabcontent">
-            <h3>JavaScript</h3>
-            <img class="Javascript" src="images/Javascript.png" alt="Javascript programming language logo">
-            <p>
-                JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.<br><br>
-
-                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).<br><br>
-                
-                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
-                
-                JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.<br><br>
-                
-                Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
-                </p>
-          </div>
-
           <div id="CLanguage" class="tabcontent">
             <h3>C/C#/C++</h3>
             <img class = "C" src="images/C-languages.png" alt="C languages logos">
@@ -123,8 +91,46 @@
                 * Source: Understanding the Differences Between <a class="c-language-source" href="https://csharp-station.com/understanding-the-differences-between-c-c-and-c/" target="_blank"> C#, C++, and C</a> 
             </p>
           </div>
+          <div id="JavaLanguage" class="tabcontent">
+            <h3>Java</h3>
+            <img class="Java" src="images/Java.png" alt="Java programming language logo">
+            <p>
+              JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>*Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
+          </div>
+
+          <div id="JavaScriptLanguage" class="tabcontent">
+            <h3>JavaScript</h3>
+            <img class="Javascript" src="images/Javascript.png" alt="Javascript programming language logo">
+            <p>
+                JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.<br><br>
+
+                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).<br><br>
+                
+                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+                
+                JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.<br><br>
+                Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.<br><br>
+                * Source: https://en.wikipedia.org/wiki/JavaScript
+                </p>
+          </div>
           
     
+          
+          <div id="PythonLanguage" class="tabcontent">
+            <h3>Python</h3>
+            <img class="Python" src="images/Python.png" alt="Python programming language logo">
+            <p>
+                Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.<br><br>
+
+                Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<br><br>
+                
+                Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions.<br><br>
+                Python 2 was discontinued with version 2.7.18 in 2020.
+                </p>
+          </div>
+
+          
+
           
 
           <div id="SQLLanguage" class="tabcontent">
@@ -162,7 +168,14 @@
 
           <div id="Objective-CLanguage" class="tabcontent">
             <h3>Objective-C</h3>
-            <p>Objective-C content.</p>
+            <p>
+              Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. Originally developed by Brad Cox and Tom Love in the early 1980s, it was selected by NeXT for its NeXTSTEP operating system. Objective-C was the standard programming language supported by Apple for developing macOS (which descended from NeXTSTEP) and iOS applications using their respective application programming interfaces (APIs), Cocoa and Cocoa Touch, until the introduction of Swift in 2014.<br><br>
+
+              Objective-C programs developed for non-Apple operating systems or that are not dependent on Apple's APIs may also be compiled for any platform supported by GNU GCC or LLVM/Clang.<br><br>
+              
+              Objective-C source code 'messaging/implementation' program files usually have .m filename extensions, while Objective-C 'header/interface' files have .h extensions, the same as C header files. Objective-C++ files are denoted with a .mm file extension.<br><br>
+              * Source: https://en.wikipedia.org/wiki/Objective-C
+              </p>
           </div>
 
 
