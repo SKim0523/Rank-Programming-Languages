@@ -188,10 +188,12 @@ body {
       width: 100%;
   }
 
-  .C, .Java, .Python, .Javascript {
+  .C, .Java, .Python, .Javascript,  .R {
     width: 30%; 
   }
 
   .c-language-source {
       text-decoration: none;
   }
+
+ 
