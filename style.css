@@ -188,7 +188,7 @@ body {
       width: 100%;
   }
 
-  .C, .Java, .Python, .Javascript,  .R {
+  .C, .Java, .Python, .Javascript, .R, .TS {
     width: 30%; 
   }
 

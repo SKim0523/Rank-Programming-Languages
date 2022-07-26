@@ -37,15 +37,12 @@
         <p class="instruction">
         Press tabs to read some basic information about each languages. <br>Languages are listed in alphabetical order.<br></p>
         <div class="tab">
-
-
             <button class="tablinks" onclick="openLanguage(event, 'CLanguage')">C/C#/C++</button>
             
             <button class="tablinks" onclick="openLanguage(event, 'JavaLanguage')">Java</button>
             
             <button class="tablinks" onclick="openLanguage(event, 'JavaScriptLanguage')">JavaScript</button>
-            <!-- <button class="tablinks" onclick="openLanguage(event, 'C#Language')">C#</button>
-            <button class="tablinks" onclick="openLanguage(event, 'C++Language')">C++</button> -->
+            
             <button class="tablinks" onclick="openLanguage(event, 'Objective-CLanguage')">Objective-C</button>
             
             <button class="tablinks" onclick="openLanguage(event, 'PHPLanguage')">PHP</button>
@@ -54,12 +51,9 @@
             
             <button class="tablinks" onclick="openLanguage(event, 'RLanguage')">R</button>
             
-            <button class="tablinks" onclick="openLanguage(event, 'SwiftLanguage')">Swift</button>
-            
+            <button class="tablinks" onclick="openLanguage(event, 'SwiftLanguage')">Swift</button> 
 
-
-           
-           
+            <button class="tablinks" onclick="openLanguage(event, 'TSLanguage')">TypeScript</button> 
           </div>
           
           <!-- Tab content -->
@@ -89,17 +83,19 @@
                 What is C++?<br><br>
                 C# (pronounced “C Sharp”) is a high-level, object-oriented programming language that is also built as an extension of C. It was developed by a team at Microsoft lead by Anders Hejlsberg in 2002. It is based in the .NET framework, but its backbone is still clearly the C language.<br>
 
-                C# compiles into byte-code, rather than machine code. That means it executes on a virtual computer that translates it into machine code on the fly. It adds garbage collection, uninitialized variable checking, bound checking, and type checking capabilities to the base C code.<br>
+                C# compiles into byte-code, rather than machine code. That means it executes on a virtual computer that translates it into machine code on the fly. It adds garbage collection, uninitialized variable checking, bound checking, and type checking capabilities to the base C code.<br><br>
 
                 C# typically sees use in internal or enterprise applications, rather than commercial software. It’s found in client and server development in the .NET framework.<br><br>
 
                 * Source: Understanding the Differences Between <a class="c-language-source" href="https://csharp-station.com/understanding-the-differences-between-c-c-and-c/" target="_blank"> C#, C++, and C</a> 
             </p>
+
           </div>
           <div id="JavaLanguage" class="tabcontent">
             <img class="Java" src="images/Java.png" alt="Java programming language logo">
             <p>
-              JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>*Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
+              JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.<br><br>
+              *Source: <a href="https://www.geeksforgeeks.org/introduction-to-java/" target="_blank">Introduction to Java</a></p>
           </div>
 
           <div id="JavaScriptLanguage" class="tabcontent">
@@ -109,7 +105,7 @@
 
                 JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).<br><br>
                 
-                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+                The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.<br><br>
                 
                 JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.<br><br>
                 Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.<br><br>
@@ -141,7 +137,8 @@
                 Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<br><br>
                 
                 Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions.<br><br>
-                Python 2 was discontinued with version 2.7.18 in 2020.
+                Python 2 was discontinued with version 2.7.18 in 2020.<br><br>
+                * Source: https://en.wikipedia.org/wiki/Python_(programming_language)
                 </p>
           </div>
 
@@ -160,9 +157,20 @@
             </p>
           </div>
 
-          <div id="TypeScriptLanguage" class="tabcontent">
-            <h3>TypeScript</h3>
-            <p>TypeScript content.</p>
+          <div id="TSLanguage" class="tabcontent">
+            <img class="TS" src="images/ts-logo-512.png" alt="
+            TypeScript programming language logo">
+            <p>
+              TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.<br><br>
+
+              TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with Node.js or Deno). Multiple options are available for transpilation. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript.<br><br>
+              
+              TypeScript supports definition files that can contain type information of existing JavaScript libraries, much like C++ header files can describe the structure of existing object files. This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as jQuery, MongoDB, and D3.js. TypeScript headers for the Node.js basic modules are also available, allowing development of Node.js programs within TypeScript.<br><br>
+              
+              The TypeScript compiler is itself written in TypeScript and compiled to JavaScript. It is licensed under the Apache License 2.0. TypeScript is included as a first-class programming language in Microsoft Visual Studio 2013 Update 2 and later, alongside C# and other Microsoft languages. An official extension also allows Visual Studio 2012 to support TypeScript. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on the development of TypeScript.
+              <br><br>
+              * Source: https://en.wikipedia.org/wiki/TypeScript
+              </p>
           </div>
 
           <div id="Objective-CLanguage" class="tabcontent">
