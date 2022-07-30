@@ -4,7 +4,7 @@
 :root {
     --border-color: Black;
     --background-color: #ccc;
-    --text-color: blue;
+    --text-color: black;
 }
 
 /* for everything */
@@ -201,4 +201,6 @@ body {
       text-decoration: none;
   }
 
- 
+ .tablinks, .tabcontent {
+     font-size: 10px;
+ }
