@@ -65,13 +65,12 @@ body {
 .draggable-list li.right .language-name {
     color: forestgreen;
     font-size: 10px;
-    
+
 }
 
 .draggable-list li.wrong .language-name {
     color: #ff3838;
     font-size: 10px;
-
 }
 
 .draggable {
@@ -85,7 +84,7 @@ body {
 
 .check-btn {
     background-color: var(--background-color);
-    border: none;
+    border: 1px solid var(--border-color);
     color: var(--text-color);
     font-size: 15px;
     padding: 10px 20px;
@@ -203,4 +202,8 @@ body {
 
  .tablinks, .tabcontent {
      font-size: 10px;
+ }
+
+ .fa-grip-lines {
+    font-size: 10px; 
  }
