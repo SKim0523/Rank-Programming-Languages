@@ -173,11 +173,13 @@ body {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    margin-bottom: 30px;
   }
 
   .instruction {
       text-align: center;
       font-size: 10px;
+      margin-bottom: 20px;
   }
 
   .assembly-language-image {
