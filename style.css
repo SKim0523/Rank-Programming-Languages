@@ -31,7 +31,7 @@ body {
     padding: 0;
     list-style-type: none;
     width: 65%;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
     font-size: 11px;
     font-family: 'Overpass', sans-serif;
 }
@@ -89,7 +89,8 @@ body {
 }
 
 .check-btn {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background-color: #f1f1f1;
     border: 1px solid var(--border-color);
     color: var(--text-color);
     font-size: 15px;
@@ -123,7 +124,8 @@ body {
     width: 40%;
     font-size: 15px;
     color: black;
-    /* background-color: #f1f7fb; */
+    padding-top: 0;
+    padding-left: 0;
   }
   
   /* Control the right side */
@@ -136,8 +138,8 @@ body {
   }
   
   .content-left {
-      width: 80%;
-      margin: 0 auto;
+      width: 100%;
+      margin: 0;
   }
 
   .content-right {
@@ -150,6 +152,10 @@ body {
     font-size: 20px;
     /* color: #6c8594; */
     font-weight: bold;
+    margin: 0;
+    margin-left: 1rem;
+    padding-top: 20px;
+    width: 90%;
   }
 
   /* Style the tab */
@@ -193,11 +199,9 @@ body {
   .instruction {
       text-align: center;
       font-size: 10px;
-      margin-bottom: 20px;
-  }
-
-  .assembly-language-image {
-      width: 50%;
+      margin-left: 2rem;
+      margin-bottom: 15px;
+      width: 80%;
   }
 
   .programming {
@@ -222,4 +226,10 @@ body {
 
  .fa-grip-lines {
     font-size: 10px; 
+ }
+
+ .yellow {
+     background-color: #fbd150;
+     padding-bottom: 5px;
+     margin-left: 0;
  }
