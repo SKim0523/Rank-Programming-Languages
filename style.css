@@ -25,8 +25,7 @@ body {
 }
 
 .draggable-list {
-    /* border: 1px solid var(--border-color); */
-    border: 1px solid #A6CFE8;
+    border: 1px solid var(--border-color);
     background-color: white;
     color: var(--text-color);
     padding: 0;
@@ -41,12 +40,11 @@ body {
     /* background-color: purple; */
     display: flex;
     flex: 1;
-    color: #1C3879;
 }
 
 .draggable-list li:not(:last-of-type) {
-    /* border-bottom: 1px solid var(--border-color); */
-    border-bottom: 1px solid #A6CFE8;
+    border-bottom: 1px solid var(--border-color);
+    /* border-bottom: 1px solid #A6CFE8; */
 }  
 
 .draggable-list .number {
@@ -59,7 +57,6 @@ body {
     height: 40px;
     width: 40px;
     font-family: 'Overpass', sans-serif;
-    color: #1C3879;
 }
 
 .draggable-list li.over .draggable {
@@ -125,7 +122,7 @@ body {
     left: 0;
     width: 40%;
     font-size: 15px;
-    color: #1C3879;
+    color: black;
     /* background-color: #f1f7fb; */
   }
   
