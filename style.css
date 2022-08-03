@@ -25,33 +25,41 @@ body {
 }
 
 .draggable-list {
-    border: 1px solid var(--border-color);
+    /* border: 1px solid var(--border-color); */
+    border: 1px solid #A6CFE8;
+    background-color: white;
     color: var(--text-color);
     padding: 0;
     list-style-type: none;
     width: 65%;
     margin: 0 auto;
-    font-size: 10px;
+    font-size: 11px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .draggable-list li {
     /* background-color: purple; */
     display: flex;
     flex: 1;
+    color: #1C3879;
 }
 
 .draggable-list li:not(:last-of-type) {
-    border-bottom: 1px solid var(--border-color);
+    /* border-bottom: 1px solid var(--border-color); */
+    border-bottom: 1px solid #A6CFE8;
 }  
 
 .draggable-list .number {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background-color: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 10px;
     height: 40px;
     width: 40px;
+    font-family: 'Overpass', sans-serif;
+    color: #1C3879;
 }
 
 .draggable-list li.over .draggable {
@@ -60,6 +68,7 @@ body {
 
 .draggable-list .language-name {
     margin: 0 20px 0 0;
+    background-color: white;
 }
 
 .draggable-list li.right .language-name {
@@ -90,6 +99,7 @@ body {
     padding: 10px 20px;
     margin: 15px 100px;
     font-size: 10px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .check-btn {
@@ -115,6 +125,8 @@ body {
     left: 0;
     width: 40%;
     font-size: 15px;
+    color: #1C3879;
+    /* background-color: #f1f7fb; */
   }
   
   /* Control the right side */
@@ -122,6 +134,8 @@ body {
     right: 0;
     width: 60%;
     font-size: 15px;
+    padding-top: 0;
+
   }
   
   .content-left {
@@ -137,6 +151,8 @@ body {
   .title {
     text-align: center;
     font-size: 20px;
+    /* color: #6c8594; */
+    font-weight: bold;
   }
 
   /* Style the tab */
@@ -155,6 +171,7 @@ body {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    font-family: 'Overpass', sans-serif;
   }
   
   /* Change background color of buttons on hover */
