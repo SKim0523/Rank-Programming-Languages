@@ -240,3 +240,11 @@ body {
     background-image: linear-gradient(to right, #fff9e9, #fff9e9 20px, #fdfdfe 20px, #fdfdfe );
     background-size: 40px 100%;
  }
+
+ .light-blue {
+    background-color: #fdfdfe;
+    opacity: 0.8;
+    background-image:  repeating-linear-gradient(45deg, #f1f7fb 25%, transparent 25%, transparent 75%, #f1f7fb 75%, #f1f7fb), repeating-linear-gradient(45deg, #f1f7fb 25%, #fdfdfe 25%, #fdfdfe 75%, #f1f7fb 75%, #f1f7fb);
+    background-position: 0 0, 40px 40px;
+    background-size: 80px 80px;
+ }
