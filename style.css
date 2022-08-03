@@ -233,3 +233,10 @@ body {
      padding-bottom: 5px;
      margin-left: 0;
  }
+
+ .beige {
+    background-color: #fdfdfe;
+    opacity: 0.8;
+    background-image: linear-gradient(to right, #fff9e9, #fff9e9 20px, #fdfdfe 20px, #fdfdfe );
+    background-size: 40px 100%;
+ }
