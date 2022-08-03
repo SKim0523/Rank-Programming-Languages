@@ -90,12 +90,13 @@ body {
 
 .check-btn {
     /* background-color: var(--background-color); */
-    background-color: #f1f1f1;
+    background-color: #FBD150;
     border: 1px solid var(--border-color);
+    /* border-radius: 3%; */
     color: var(--text-color);
     font-size: 15px;
     padding: 10px 20px;
-    margin: 15px 100px;
+    margin: 15px 0 0 7rem;
     font-size: 10px;
     font-family: 'Overpass', sans-serif;
 }
@@ -150,7 +151,7 @@ body {
   .title {
     text-align: center;
     font-size: 20px;
-    /* color: #6c8594; */
+    /* color: white; */
     font-weight: bold;
     margin: 0;
     margin-left: 1rem;
