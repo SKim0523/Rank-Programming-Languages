@@ -31,7 +31,7 @@ body {
     padding: 0;
     list-style-type: none;
     width: 65%;
-    margin: 1rem auto 0 auto;
+    margin: 0 auto 0 auto;
     font-size: 11px;
     font-family: 'Overpass', sans-serif;
 }
@@ -49,7 +49,7 @@ body {
 
 .draggable-list .number {
     /* background-color: var(--background-color); */
-    background-color: #f1f1f1;
+    background-color: rgb(244,249,252);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,13 +90,13 @@ body {
 
 .check-btn {
     /* background-color: var(--background-color); */
-    background-color: #FBD150;
+    background-color: #fbd150;
     border: 1px solid var(--border-color);
     /* border-radius: 3%; */
     color: var(--text-color);
     font-size: 15px;
     padding: 10px 20px;
-    margin: 15px 0 0 7rem;
+    margin: 15px 150px;
     font-size: 10px;
     font-family: 'Overpass', sans-serif;
 }
@@ -122,7 +122,7 @@ body {
   /* Control the left side */
   .left {
     left: 0;
-    width: 40%;
+    width: 35%;
     font-size: 15px;
     color: black;
     padding-top: 0;
@@ -132,9 +132,9 @@ body {
   /* Control the right side */
   .right {
     right: 0;
-    width: 60%;
+    width: 65%;
     font-size: 15px;
-    padding-top: 0;
+    /* padding-top: 5px; */
 
   }
   
@@ -163,7 +163,7 @@ body {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #f1f7fb;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -180,12 +180,12 @@ body {
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #d3e7f4;
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: #ccc;
+    background-color: #A6CFE8;
   }
   
   /* Style the tab content */
@@ -231,7 +231,7 @@ body {
 
  .yellow {
      background-color: #fbd150;
-     padding-bottom: 5px;
+     padding-bottom: 20px;
      margin-left: 0;
  }
 
@@ -239,7 +239,8 @@ body {
     background-color: #fdfdfe;
     opacity: 0.8;
     background-image: linear-gradient(to right, #fff9e9, #fff9e9 20px, #fdfdfe 20px, #fdfdfe );
-    background-size: 40px 100%;
+    background-size: 30px 100%;
+    padding-top: 20px;
  }
 
  .light-blue {
@@ -248,4 +249,5 @@ body {
     background-image:  repeating-linear-gradient(45deg, #f1f7fb 25%, transparent 25%, transparent 75%, #f1f7fb 75%, #f1f7fb), repeating-linear-gradient(45deg, #f1f7fb 25%, #fdfdfe 25%, #fdfdfe 75%, #f1f7fb 75%, #f1f7fb);
     background-position: 0 0, 40px 40px;
     background-size: 80px 80px;
+    width: 100%;
  }
