@@ -89,14 +89,12 @@ body {
 }
 
 .check-btn {
-    /* background-color: var(--background-color); */
     background-color: #fbd150;
     border: 1px solid var(--border-color);
-    /* border-radius: 3%; */
     color: var(--text-color);
     font-size: 15px;
     padding: 10px 20px;
-    margin: 15px 150px;
+    margin: 15px 100px;
     font-size: 10px;
     font-family: 'Overpass', sans-serif;
 }
@@ -144,8 +142,12 @@ body {
   }
 
   .content-right {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+}
+
+.split-right {
+    padding: 0;
 }
 
   .title {
@@ -164,6 +166,8 @@ body {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f7fb;
+    width: 85%;
+    margin: 0 auto;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -194,7 +198,9 @@ body {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    margin-bottom: 30px;
+    background-color: white;
+    width: 85%;
+    margin: 0 auto 20px auto;
   }
 
   .instruction {
@@ -207,6 +213,7 @@ body {
 
   .programming {
       width: 100%;
+      margin-bottom: -5px;
   }
 
   .hello-world {
